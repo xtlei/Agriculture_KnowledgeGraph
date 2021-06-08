@@ -1,8 +1,8 @@
 # coding: utf-8
 
-from hudong_class import HudongItem
+from predict label.hudong_class import HudongItem
 from neo_models import Neo4j
-from pyfasttext import FastText
+import fasttext
 from functools import cmp_to_key
 from math import log
 from math import sqrt
